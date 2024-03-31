@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.container{
+    border: 2px solid#f81ba0;
+    border-radius: 10px;
+    height: 24rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(10,0,66,1) 0%, rgba(21,97,135,1) 46%, rgba(31,194,204,1) 82%, rgba(38,255,248,1) 100%);
+}
+
+.profile{
+    background-image: url(1708125660065.jpeg);
+    background-size: cover;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border: 3px solid #f81ba0 ;
+    border-radius: 50%;
+    top: 11rem;
+    margin-bottom: 10px;
+    
+}
+
+.links{
+    height: 15rem;
+    width: auto;
+    position: relative;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{
+    color: white;
+}
+
+.link{
+    height: 3rem;
+    width: 10rem;
+    background: linear-gradient(90deg, rgba(255,0,246,1) 0%, rgba(65,195,255,1) 100%) padding-box,
+    linear-gradient(90deg, rgba(9,242,26,1) 0%, rgba(27,250,154,1) 49%, rgba(38,255,233,1) 100%) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    margin: 8px;
+}
+
+.link:hover{
+    color: white;
+    background: linear-gradient(90deg, rgba(255,0,18,1) 0%, rgba(255,182,38,1) 100%) padding-box,
+    linear-gradient(90deg, rgba(9,242,26,1) 0%, rgba(27,250,154,1) 49%, rgba(38,255,233,1) 100%) border-box;
+}
+
+.buttons{
+    height: auto;
+    width: 12rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(14,14,148,1) 89%);
+    border: 2px solid #f81ba0;
+    border-radius: 30px;
+}
+
+button:hover{
+    color: black;
+    background: linear-gradient(90deg, rgba(0,255,215,1) 0%, rgba(14,106,148,1) 100%);
+}
